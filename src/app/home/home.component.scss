@@ -1,0 +1,141 @@
+/* סגנון רקע */
+/* body  {  */
+     /* background-color: #bf2525;  */
+    /* background-image: url("/src/assets/2.jpg"); */
+    /* background-size: cover;
+    background-position: center; */
+  /* } */
+ 
+  /* h1 {
+    color: #191414;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 200px; 
+  } */
+  
+  /* סגנון הלינק למכירה סינית */
+  /* a {
+    color: #0b0a0a; 
+    font-size: 24px; 
+    text-align: center; 
+    display: block;
+    margin-top: 20px;
+  } */
+  
+  /* img {
+    width: 200px; 
+    height: 200px;
+    margin: 10px; 
+    border-radius: 50%
+  } */
+ 
+#h{
+
+  background-color:rgb(3, 3, 3);
+
+
+}
+// a{
+//   text-decoration: none;
+
+//   color: aliceblue;
+// }
+// a:hover{
+//   background-color:gray;
+// }
+
+body {
+ 
+
+  font-family: Arial, sans-serif;
+ margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.navbar {
+ 
+  gap: 2vw;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar ul {
+ 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 15vw;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-image {
+  background-image: url('/src/assets/1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  margin: 0;
+}
+
+.feature p {
+  margin: 10px 0;
+}
+
+.footer {
+  
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  }
+
+
+
+a:hover {
+  font-weight: bold; 
+}

@@ -1,0 +1,26 @@
+
+<header class="header">
+    <nav class="navbar" >
+      <ul>
+        <li><a href="#">Home </a></li>
+        <li><a routerLink="gifts" routerLinkActive="active-link" >Gifts List</a></li>
+        <li><a routerLink="donors" routerLinkActive="active-link">Donors List</a></li>
+        <li> <a  routerLink="users" routerLinkActive="active-link">Users List</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- 
+<p>manager-home works!</p>
+<div>
+    <p-menubar>
+        <ng-template pTemplate="start">
+            <p-button  label="Gifts List" class="p-button-text" routerLink="gifts" routerLinkActive="active-link"></p-button>
+            <p-button label="Donors List"  class="p-button-text" routerLink="donors" routerLinkActive="active-link"></p-button>
+            <p-button label="Users List" class="p-button-text" routerLink="users" routerLinkActive="active-link"></p-button>
+            
+        </ng-template>
+        
+    </p-menubar>
+</div> -->
+<router-outlet></router-outlet>

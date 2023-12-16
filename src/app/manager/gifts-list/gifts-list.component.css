@@ -1,0 +1,21 @@
+.table-header {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.my-toolbar{
+    height: 150px;
+}
+.my-css{
+    background-color: aqua;
+    z-index:1;
+    height: 50vh;
+    width: 95vw;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    direction: rtl;
+    
+}
+
